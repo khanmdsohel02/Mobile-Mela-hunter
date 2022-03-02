@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500;700&family=Fira+Sans+Condensed:wght@700&display=swap');
 
+  .body-color{
+    background-color: rgb(230, 241, 241);
+} 
 main{
     font-family: 'Fira Mono', monospace;
+   
 }
 .margin-x{
     margin-left: 15%;
     margin-right: 15%;
+}
+.bg-colo{
+    background-color: rgb(201, 201, 44);
 }
