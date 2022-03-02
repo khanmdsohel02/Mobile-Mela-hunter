@@ -50,8 +50,8 @@ const parent = document.getElementById("single-mobile-info");
 
 const div = document.createElement("div");
 
-   div.innerHTML =`<div class=" card h-100 w-75 mx-auto">
-   <img src="${singlemobileinfo.image}" class="card-img-top p-3" alt="...">
+   div.innerHTML =`<div class=" card mx-auto h-25 w-50">
+   <img src="${singlemobileinfo.image}" class="card-img-top p-3 h-25 " alt="...">
    <div class="card-body">
      <h2 class="card-title">${singlemobileinfo.name}</h2>
      <h3 class="card-text">${singlemobileinfo.releaseDate}</h3>
