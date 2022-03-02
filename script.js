@@ -1,4 +1,5 @@
 const allMobile =( ) =>{
+  document.getElementById("single-mobile-info").innerHTML ="";
   document.getElementById("phone-container").innerHTML ="";
   document.getElementById("spinner").style.display = "block";
     const searchValue =document.getElementById("search-box").value;
